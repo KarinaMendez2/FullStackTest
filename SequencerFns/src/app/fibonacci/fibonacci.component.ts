@@ -14,12 +14,12 @@ export class FibonacciComponent implements OnInit {
 	ngOnInit() {
 	}
 
-	initFibonacci(n:number){
+	initFibonacci(n){
 		this.last_fibonacci = n;
 		this.fibonacci(this.last_fibonacci);
 	}
 
-  	fibonacci(n:number ?)
+  	fibonacci(n ?)
 	{
 		console.log(this.result_fibonacci);
 
@@ -37,7 +37,7 @@ export class FibonacciComponent implements OnInit {
 	        this.result_fibonacci = -1; 
 	    }
 
-	    
+	    return this.result_fibonacci;
 	}
 
 }

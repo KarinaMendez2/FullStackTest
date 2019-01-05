@@ -14,20 +14,20 @@ export class FactorialComponent implements OnInit {
   	}
 
   	next(fact: number){
-  		return factorialSeq(fact);	
+  		return this.factorialSeq(fact);	
   	}
 
   	factorialSeq(fact: number) {
   		var factorial:number = 1;
   		var num:number = fact; 
 	 
-		while(num >=1) { 
-	   		factorial = factorial * num; 
-	   		num--; 
-		} 
-		console.log("The factorial  is "+factorial); 
+  		while(num >=1) { 
+  	   		factorial = factorial * num; 
+  	   		num--; 
+  		} 
+  		console.log("The factorial  is "+factorial); 
 
-		return factorial;
+  		return factorial;
   	}
 
 }

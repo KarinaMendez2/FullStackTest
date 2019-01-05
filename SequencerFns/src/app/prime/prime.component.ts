@@ -13,7 +13,7 @@ export class PrimeComponent implements OnInit {
   	ngOnInit() {
   	}
 
-  	primeSeq(n:number ?){
+  	primeSeq (n ?):number {
   		if(n >= 0){
   			this.last_prime = n;
   		}
@@ -32,7 +32,7 @@ export class PrimeComponent implements OnInit {
 	    
   	}
 
-  	isPrime(value:number) {
+  	isPrime(value) {
 	    for(var i = 2; i < value; i++) {
 	        if(value % i === 0) {
 	            return false;

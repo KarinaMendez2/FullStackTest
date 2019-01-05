@@ -15,7 +15,7 @@ export class RangeComponent implements OnInit {
 
     ngOnInit() { }
 
-	rangeSeq(n:number ? , step:number ? ){
+	rangeSeq(n ? , step ? ){
 		
 		if(n){
 			this.last_range = n;

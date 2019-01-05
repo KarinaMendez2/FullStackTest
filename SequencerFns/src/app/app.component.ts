@@ -20,12 +20,7 @@ export class AppComponent {
 
   def_init:number  = 1;
 
-
-  /*
-	
-	All basic initializers
-
-  */	
+  /** All basic initializers */
 
   factorialFn:FactorialComponent ;
 
@@ -37,15 +32,7 @@ export class AppComponent {
   	this.factorialFn = new FactorialComponent();
   }
 
-  modeToggleSwitch(){
-  	console.log("sjnjksd");
-  }
-
-  /*
-  	Choose function with number of arguments
-  */	
-
-  chooseFn(opt: string, num: number ?){
+  chooseFn(opt, num ?){
 
   	if(opt == 'fact'){
   		if(num > 0){

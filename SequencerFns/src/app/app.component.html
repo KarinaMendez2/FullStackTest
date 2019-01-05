@@ -1,0 +1,70 @@
+<div class="root__container" >
+    <header>
+        <section class="belt_section">
+            <img src="/assets/images/liston.png" alt="header"
+                       class="header_belt">
+        </section>
+
+    </header>
+    <!-- Slide Menu-->
+    <aside class="" >
+      <nav class="" >
+          <section class="">
+            <img src="/assets/images/calculadora.png" alt="profile-image"
+                       class="profile__image">
+          </section>
+          <section class="menu-body">
+            <!--li class="side_menuitem">Factorial</li>
+            <li class="side_menuitem">Fibonacci</li>
+            <li class="side_menuitem">Range</li>
+            <li class="side_menuitem">Prime</li>
+            <li class="side_menuitem">Partial sum</li!-->
+          </section>
+          <section class="menu-footer">
+
+          </section>
+
+          <section class="icon_footer">
+            <img src="/assets/images/profesor-right.png" alt="header"
+                       class="prof">
+        </section>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+
+    <!--<router-outlet></router-outlet>-->
+    <main class="main__container">
+        
+        <mat-tab-group>
+          <mat-tab label="Factorial">
+            <section class="general_container">
+                <h1>Factorial</h1>
+                <input #fact type="number" fact.value= 1 class="general_input" placeholder="Default start at: 1" />
+
+                <p>Result for: {{last_num}}  is {{result}}</p>
+                <span (click)="chooseFn('fact', fact.value)" type="checkbox" class="fun_btn orange_btn">Factorial</span>
+
+                <span (click)="chooseFn('fact', +last_num+1)" type="checkbox" class="fun_btn green_btn">Next</span>
+            </section>    
+          </mat-tab>
+
+          <mat-tab label="Fibonacci">
+            <section class="general_container"><h1>Fibonacci</h1><app-fibonacci></app-fibonacci></section>
+          </mat-tab>
+
+          <mat-tab label="Range">
+            <section class="general_container"><h1>Range </h1><app-range></app-range></section>
+          </mat-tab>
+
+          <mat-tab label="Prime">
+            <section class="general_container"><h1>Prime</h1><app-prime></app-prime></section>
+          </mat-tab>
+
+          <mat-tab label="Partial Sum">
+            <section class="general_container"><h1>Partial Sum</h1><app-partial-sum></app-partial-sum></section>
+          </mat-tab>
+        </mat-tab-group>
+
+    </main>
+</div>

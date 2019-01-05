@@ -1,0 +1,5 @@
+<input #start type="number" class="general_input" placeholder="Default: 1" />
+<input #step type="number" class="general_input" placeholder="Default: 2" />
+<p>Range result: {{last_range}}</p>
+<span (click)="rangeSeq(+start.value, +step.value)" type="checkbox" class="fun_btn orange_btn">Range</span>
+<span (click)="rangeSeq(+last_range, +step.value)" type="checkbox" class="fun_btn green_btn">Next</span>

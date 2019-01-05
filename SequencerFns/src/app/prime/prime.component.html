@@ -1,0 +1,4 @@
+<input #prime type="number" class="general_input" placeholder="Default start at: 1" />
+<p>Prime result: {{last_prime}}</p>
+<span (click)="primeSeq(+prime.value)" type="checkbox" class="fun_btn orange_btn">First seq prime</span>
+<span (click)="primeSeq(+last_prime)" type="checkbox" class="fun_btn green_btn">Next</span>

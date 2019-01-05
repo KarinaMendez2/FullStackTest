@@ -1,0 +1,22 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "all packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev_test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarinaMendez2/FullStackTest.git"
+  },
+  "keywords": [
+    "test1"
+  ],
+  "author": "Karina Mendez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarinaMendez2/FullStackTest/issues"
+  },
+  "homepage": "https://github.com/KarinaMendez2/FullStackTest#readme"
+}

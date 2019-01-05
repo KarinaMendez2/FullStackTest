@@ -1,0 +1,351 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/karinamendez/.nvm/versions/node/v0.12.7/bin/node',
+1 verbose cli   '/Users/karinamendez/.nvm/versions/node/v0.12.7/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   '-g',
+1 verbose cli   '@angular/cli' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of /Users/karinamendez/.nvm/versions/node/v0.12.7/lib/package.json
+5 verbose readDependencies loading dependencies from /Users/karinamendez/.nvm/versions/node/v0.12.7/lib/package.json
+6 silly cache add args [ '@angular/cli', null ]
+7 verbose cache add spec @angular/cli
+8 silly cache add parsed spec { raw: '@angular/cli',
+8 silly cache add   scope: '@angular',
+8 silly cache add   name: '@angular/cli',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed @angular/cli@*
+10 verbose addNamed "*" is a valid semver range for @angular/cli
+11 silly addNameRange { name: '@angular/cli', range: '*', hasData: false }
+12 silly mapToRegistry name @angular/cli
+13 silly mapToRegistry scope (from package name) @angular
+14 verbose mapToRegistry no registry URL found in name for scope @angular
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcli
+18 verbose addNameRange registry:https://registry.npmjs.org/@angular%2fcli not in flight; fetching
+19 verbose request uri https://registry.npmjs.org/@angular%2fcli
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 7:24:57 PM
+22 verbose request id 3a35a6d0115cfea9
+23 http request GET https://registry.npmjs.org/@angular%2fcli
+24 http 200 https://registry.npmjs.org/@angular%2fcli
+25 silly get cb [ 200,
+25 silly get   { date: 'Thu, 03 Jan 2019 01:24:12 GMT',
+25 silly get     'content-type': 'application/json',
+25 silly get     'transfer-encoding': 'chunked',
+25 silly get     connection: 'keep-alive',
+25 silly get     'set-cookie': [ '__cfduid=dca375e68da81f99d6c35214cfad0925a1546478652; expires=Fri, 03-Jan-20 01:24:12 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+25 silly get     'cf-cache-status': 'HIT',
+25 silly get     'cache-control': 'public, max-age=300',
+25 silly get     'cf-ray': '4931aa176dc5b901-MIA',
+25 silly get     etag: 'W/"ee1a8e790f628573c775ccd788e55769"',
+25 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+25 silly get     'last-modified': 'Fri, 28 Dec 2018 19:58:26 GMT',
+25 silly get     vary: 'Accept-Encoding',
+25 silly get     'x-amz-meta-rev': '355-360b609bb9293b9946d02bc434d5aa97',
+25 silly get     server: 'cloudflare',
+25 silly get     'content-encoding': 'gzip' } ]
+26 verbose get saving @angular/cli to /Users/karinamendez/.npm/registry.npmjs.org/_40angular_252fcli/.cache.json
+27 silly addNameRange number 2 { name: '@angular/cli', range: '*', hasData: true }
+28 silly addNameRange versions [ '@angular/cli',
+28 silly addNameRange   [ '1.0.0-beta.28.3',
+28 silly addNameRange     '1.0.0-beta.29',
+28 silly addNameRange     '1.0.0-beta.30',
+28 silly addNameRange     '1.0.0-beta.31',
+28 silly addNameRange     '1.0.0-beta.32',
+28 silly addNameRange     '1.0.0-beta.32.2',
+28 silly addNameRange     '1.0.0-beta.32.3',
+28 silly addNameRange     '1.0.0-beta.33',
+28 silly addNameRange     '1.0.0-beta.33.1',
+28 silly addNameRange     '1.0.0-rc.0',
+28 silly addNameRange     '1.0.0-rc.1',
+28 silly addNameRange     '1.0.0-rc.2',
+28 silly addNameRange     '1.0.0-rc.3',
+28 silly addNameRange     '1.0.0-rc.4',
+28 silly addNameRange     '1.0.0',
+28 silly addNameRange     '1.0.1',
+28 silly addNameRange     '1.0.2',
+28 silly addNameRange     '1.1.0-beta.0',
+28 silly addNameRange     '1.0.3',
+28 silly addNameRange     '1.1.0-beta.1',
+28 silly addNameRange     '1.1.0-rc.0',
+28 silly addNameRange     '1.0.4',
+28 silly addNameRange     '1.0.5',
+28 silly addNameRange     '1.1.0-rc.1',
+28 silly addNameRange     '1.0.6',
+28 silly addNameRange     '1.1.0-rc.2',
+28 silly addNameRange     '1.1.0',
+28 silly addNameRange     '1.2.0-beta.0',
+28 silly addNameRange     '1.1.1',
+28 silly addNameRange     '1.2.0-beta.1',
+28 silly addNameRange     '1.1.2',
+28 silly addNameRange     '1.2.0-rc.0',
+28 silly addNameRange     '1.1.3',
+28 silly addNameRange     '1.2.0-rc.1',
+28 silly addNameRange     '1.2.0',
+28 silly addNameRange     '1.3.0-beta.0',
+28 silly addNameRange     '1.2.1',
+28 silly addNameRange     '1.3.0-beta.1',
+28 silly addNameRange     '1.2.2',
+28 silly addNameRange     '1.2.3',
+28 silly addNameRange     '1.3.0-rc.0',
+28 silly addNameRange     '1.2.4',
+28 silly addNameRange     '1.3.0-rc.1',
+28 silly addNameRange     '1.2.5',
+28 silly addNameRange     '1.3.0-rc.2',
+28 silly addNameRange     '1.2.6',
+28 silly addNameRange     '1.3.0-rc.3',
+28 silly addNameRange     '1.2.7',
+28 silly addNameRange     '1.3.0-rc.4',
+28 silly addNameRange     '1.3.0-rc.5',
+28 silly addNameRange     '1.2.8',
+28 silly addNameRange     '1.3.0',
+28 silly addNameRange     '1.4.0-beta.0',
+28 silly addNameRange     '1.3.1',
+28 silly addNameRange     '1.4.0-beta.1',
+28 silly addNameRange     '1.4.0-beta.2',
+28 silly addNameRange     '1.3.2',
+28 silly addNameRange     '1.4.0-rc.0',
+28 silly addNameRange     '1.4.0-rc.1',
+28 silly addNameRange     '1.4.0-rc.2',
+28 silly addNameRange     '1.4.0',
+28 silly addNameRange     '1.4.1',
+28 silly addNameRange     '1.5.0-beta.0',
+28 silly addNameRange     '1.4.2',
+28 silly addNameRange     '1.4.3',
+28 silly addNameRange     '1.5.0-beta.1',
+28 silly addNameRange     '1.4.4',
+28 silly addNameRange     '1.5.0-beta.2',
+28 silly addNameRange     '1.5.0-beta.3',
+28 silly addNameRange     '1.4.5',
+28 silly addNameRange     '1.5.0-beta.4',
+28 silly addNameRange     '1.4.6',
+28 silly addNameRange     '1.4.7',
+28 silly addNameRange     '1.5.0-rc.0',
+28 silly addNameRange     '1.4.8',
+28 silly addNameRange     '1.5.0-rc.1',
+28 silly addNameRange     '1.4.9',
+28 silly addNameRange     '1.5.0-rc.2',
+28 silly addNameRange     '1.5.0-rc.3',
+28 silly addNameRange     '1.5.0-rc.4',
+28 silly addNameRange     '1.5.0-rc.5',
+28 silly addNameRange     '1.5.0-rc.6',
+28 silly addNameRange     '1.5.0-rc.7',
+28 silly addNameRange     '1.5.0-rc.8',
+28 silly addNameRange     '1.5.0',
+28 silly addNameRange     '1.6.0-beta.0',
+28 silly addNameRange     '1.5.1',
+28 silly addNameRange     '1.6.0-beta.1',
+28 silly addNameRange     '1.6.0-beta.2',
+28 silly addNameRange     '1.5.2',
+28 silly addNameRange     '1.5.3',
+28 silly addNameRange     '1.5.4',
+28 silly addNameRange     '1.6.0-rc.0',
+28 silly addNameRange     '1.5.5',
+28 silly addNameRange     '1.6.0-rc.1',
+28 silly addNameRange     '1.6.0-rc.2',
+28 silly addNameRange     '1.6.0',
+28 silly addNameRange     '1.6.1',
+28 silly addNameRange     '1.6.2',
+28 silly addNameRange     '1.6.3',
+28 silly addNameRange     '1.6.4',
+28 silly addNameRange     '1.7.0-beta.0',
+28 silly addNameRange     '1.5.6',
+28 silly addNameRange     '1.4.10',
+28 silly addNameRange     '1.6.5',
+28 silly addNameRange     '1.7.0-beta.1',
+28 silly addNameRange     '1.7.0-beta.2',
+28 silly addNameRange     '1.6.6',
+28 silly addNameRange     '1.6.7',
+28 silly addNameRange     '1.7.0-beta.3',
+28 silly addNameRange     '1.6.8',
+28 silly addNameRange     '1.7.0-rc.0',
+28 silly addNameRange     '1.7.0',
+28 silly addNameRange     '6.0.0-beta.2',
+28 silly addNameRange     '1.7.1',
+28 silly addNameRange     '6.0.0-beta.3',
+28 silly addNameRange     '1.7.2',
+28 silly addNameRange     '6.0.0-beta.4',
+28 silly addNameRange     '1.7.3',
+28 silly addNameRange     '6.0.0-beta.5',
+28 silly addNameRange     '6.0.0-beta.6',
+28 silly addNameRange     '6.0.0-beta.7',
+28 silly addNameRange     '6.0.0-beta.8',
+28 silly addNameRange     '6.0.0-beta.9',
+28 silly addNameRange     '6.0.0-rc.0',
+28 silly addNameRange     '6.0.0-rc.1',
+28 silly addNameRange     '1.7.4',
+28 silly addNameRange     '6.0.0-rc.2',
+28 silly addNameRange     '6.0.0-rc.3',
+28 silly addNameRange     '6.0.0-rc.4',
+28 silly addNameRange     '6.0.0-rc.5',
+28 silly addNameRange     '6.0.0-rc.6',
+28 silly addNameRange     '6.0.0-rc.7',
+28 silly addNameRange     '6.0.0-rc.8',
+28 silly addNameRange     '6.0.0-rc.9',
+28 silly addNameRange     '6.0.0-rc.10',
+28 silly addNameRange     '6.0.0',
+28 silly addNameRange     '6.0.1',
+28 silly addNameRange     '6.0.2',
+28 silly addNameRange     '6.0.3',
+28 silly addNameRange     '6.0.4',
+28 silly addNameRange     '6.0.5',
+28 silly addNameRange     '6.0.7',
+28 silly addNameRange     '6.1.0-beta.0',
+28 silly addNameRange     '6.0.8',
+28 silly addNameRange     '6.1.0-beta.2',
+28 silly addNameRange     '6.1.0-rc.0',
+28 silly addNameRange     '6.1.0-rc.1',
+28 silly addNameRange     '6.1.0-rc.2',
+28 silly addNameRange     '6.1.0-rc.3',
+28 silly addNameRange     '6.1.0',
+28 silly addNameRange     '6.1.1',
+28 silly addNameRange     '6.1.2',
+28 silly addNameRange     '6.2.0-beta.0',
+28 silly addNameRange     '6.2.0-beta.1',
+28 silly addNameRange     '6.1.3',
+28 silly addNameRange     '6.2.0-beta.2',
+28 silly addNameRange     '6.2.0-beta.3',
+28 silly addNameRange     '6.1.4',
+28 silly addNameRange     '6.1.5',
+28 silly addNameRange     '6.2.0-rc.0',
+28 silly addNameRange     '6.2.0-rc.1',
+28 silly addNameRange     '6.2.0',
+28 silly addNameRange     '6.2.1',
+28 silly addNameRange     '7.0.0-beta.0',
+28 silly addNameRange     '7.0.0-beta.1',
+28 silly addNameRange     '7.0.0-beta.2',
+28 silly addNameRange     '6.2.2',
+28 silly addNameRange     '7.0.0-beta.3',
+28 silly addNameRange     '6.2.3',
+28 silly addNameRange     '7.0.0-beta.4',
+28 silly addNameRange     '7.0.0-rc.0',
+28 silly addNameRange     '6.2.4',
+28 silly addNameRange     '7.0.0-rc.1',
+28 silly addNameRange     '7.0.0-rc.2',
+28 silly addNameRange     '7.0.0-rc.3',
+28 silly addNameRange     '6.2.5',
+28 silly addNameRange     '7.0.1',
+28 silly addNameRange     '7.0.2',
+28 silly addNameRange     '6.2.6',
+28 silly addNameRange     '7.0.3',
+28 silly addNameRange     '7.0.4',
+28 silly addNameRange     '7.1.0-beta.0',
+28 silly addNameRange     '6.2.7',
+28 silly addNameRange     '7.1.0-beta.1',
+28 silly addNameRange     '7.0.5',
+28 silly addNameRange     '7.0.6',
+28 silly addNameRange     '7.1.0-rc.0',
+28 silly addNameRange     '7.0.7',
+28 silly addNameRange     '7.1.0',
+28 silly addNameRange     '6.2.8',
+28 silly addNameRange     '7.2.0-beta.0',
+28 silly addNameRange     '7.1.1',
+28 silly addNameRange     '7.1.2',
+28 silly addNameRange     '7.2.0-beta.1',
+28 silly addNameRange     '7.1.3',
+28 silly addNameRange     '7.2.0-beta.2',
+28 silly addNameRange     '7.1.4',
+28 silly addNameRange     '7.2.0-rc.0' ] ]
+29 silly addNamed @angular/cli@7.1.4
+30 verbose addNamed "7.1.4" is a plain semver version for @angular/cli
+31 silly mapToRegistry name @angular/cli
+32 silly mapToRegistry scope (from package name) @angular
+33 verbose mapToRegistry no registry URL found in name for scope @angular
+34 silly mapToRegistry using default registry
+35 silly mapToRegistry registry https://registry.npmjs.org/
+36 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcli
+37 verbose addRemoteTarball https://registry.npmjs.org/@angular/cli/-/cli-7.1.4.tgz not in flight; adding
+38 verbose addRemoteTarball [ 'https://registry.npmjs.org/@angular/cli/-/cli-7.1.4.tgz',
+38 verbose addRemoteTarball   'f07ee4e979ec202bf2fd91a665e3d2d6c065bbe1' ]
+39 info retry fetch attempt 1 at 7:25:07 PM
+40 info attempt registry request try #1 at 7:25:07 PM
+41 http fetch GET https://registry.npmjs.org/@angular/cli/-/cli-7.1.4.tgz
+42 http fetch 200 https://registry.npmjs.org/@angular/cli/-/cli-7.1.4.tgz
+43 silly fetchAndShaCheck shasum f07ee4e979ec202bf2fd91a665e3d2d6c065bbe1
+44 verbose addTmpTarball /var/folders/vy/b03qhjkn4sj83q4h4x3nlvqh0000gn/T/npm-14462-3dd27264/registry.npmjs.org/_40angular/cli/-/cli-7.1.4.tgz not in flight; adding
+45 verbose addTmpTarball already have metadata; skipping unpack for @angular/cli@7.1.4
+46 silly cache afterAdd @angular/cli@7.1.4
+47 verbose afterAdd /Users/karinamendez/.npm/@angular/cli/7.1.4/package/package.json not in flight; writing
+48 verbose afterAdd /Users/karinamendez/.npm/@angular/cli/7.1.4/package/package.json written
+49 silly install resolved [ { name: '@angular/cli',
+49 silly install resolved     version: '7.1.4',
+49 silly install resolved     description: 'CLI tool for Angular',
+49 silly install resolved     main: 'lib/cli/index.js',
+49 silly install resolved     trackingCode: 'UA-8594346-19',
+49 silly install resolved     bin: { ng: './bin/ng' },
+49 silly install resolved     keywords:
+49 silly install resolved      [ 'angular',
+49 silly install resolved        'Angular CLI',
+49 silly install resolved        'devkit',
+49 silly install resolved        'sdk',
+49 silly install resolved        'Angular DevKit',
+49 silly install resolved        'angular-cli' ],
+49 silly install resolved     repository:
+49 silly install resolved      { type: 'git',
+49 silly install resolved        url: 'git+https://github.com/angular/angular-cli.git' },
+49 silly install resolved     author: { name: 'Angular Authors' },
+49 silly install resolved     license: 'MIT',
+49 silly install resolved     bugs: { url: 'https://github.com/angular/angular-cli/issues' },
+49 silly install resolved     homepage: 'https://github.com/angular/angular-cli',
+49 silly install resolved     dependencies:
+49 silly install resolved      { '@angular-devkit/architect': '0.11.4',
+49 silly install resolved        '@angular-devkit/core': '7.1.4',
+49 silly install resolved        '@angular-devkit/schematics': '7.1.4',
+49 silly install resolved        '@schematics/angular': '7.1.4',
+49 silly install resolved        '@schematics/update': '0.11.4',
+49 silly install resolved        inquirer: '6.2.0',
+49 silly install resolved        opn: '5.3.0',
+49 silly install resolved        semver: '5.5.1',
+49 silly install resolved        'symbol-observable': '1.2.0' },
+49 silly install resolved     'ng-update': { migrations: '@schematics/angular/migrations/migration-collection.json' },
+49 silly install resolved     engines: { node: '>= 8.9.0', npm: '>= 5.5.1' },
+49 silly install resolved     _id: '@angular/cli@7.1.4',
+49 silly install resolved     _npmVersion: '6.2.0',
+49 silly install resolved     _nodeVersion: '10.9.0',
+49 silly install resolved     _npmUser: { name: 'angular', email: 'devops+npm@angular.io' },
+49 silly install resolved     dist:
+49 silly install resolved      { integrity: 'sha512-SruaZsmyq3+ymMPeMJSzhytvgtvzyzb1q58pUYX+vZjff2aMYOo0TVxJALwTOPIABICTqUTZmujbLG9uxVgxFA==',
+49 silly install resolved        shasum: 'f07ee4e979ec202bf2fd91a665e3d2d6c065bbe1',
+49 silly install resolved        tarball: 'https://registry.npmjs.org/@angular/cli/-/cli-7.1.4.tgz',
+49 silly install resolved        fileCount: 149,
+49 silly install resolved        unpackedSize: 631512,
+49 silly install resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcGs+nCRA9TVsSAnZWagAA9HoP/RvjujHRC6rXqSlUNWYn\nhG6iMSMVBgIjpNLNE0UWUQvCrkYRkLS6TY7s7s7lydO6Q6V8GuKZ2+RPW6hk\nm7TXYJ6Oo18Gl5/llk/b4/X9eGkVgR9tp/xaRasEuBCuYu5EPcKo4WpM2PAA\n2vC1EBzdw0WYTwkUD/ZJNbQ3wGE1RHbJXHyUm4qS0HJh5mgk1zgOQRs9Kg5h\ncX0rGkCJTq7a6+amWbrYLMpndJu10OJr9pnePtcO9I+HlCP9dUXWvACcmp57\nQBaucncp54UeluOIf1J0jeggZdBvt6/RQMTuSzuMn69EX1F0eS3lxGP5hiXm\nrKbjhiQBzv2TQVj9nJYJUmr5OLqqynKHxBYND2uFTETVTmv1+2lskDLQCmO3\n1AOjl4csGcDvleHYMGd8pEETML+Tro6DTIOQ6xPsII6jbdVYvRsJzT3gX1iP\nS5F/txyP+0Lhxox1SIrMHyH0EwR/Zo261G+/LT8Zno21oBgqUVlQuhJcXxHG\naiD6Xo6hmy8AydAm6905r5p/LBeSph0iFlnDBIxbTTjhgM9sppRxD8kVtN6x\n1LCQKJH4TXYbQKFcA0wkiqQBnL+/al1H4et21/19DxeITrSM76mYvQUKd7Bz\no7fv0ynwcV0aJQzdlkemCDxNd+pdhJplhMGN/EICSGYouHYmBgst1gJNxwVw\n8Eo8\r\n=2nvQ\r\n-----END PGP SIGNATURE-----\r\n' },
+49 silly install resolved     maintainers: [ [Object], [Object] ],
+49 silly install resolved     directories: {},
+49 silly install resolved     _npmOperationalInternal:
+49 silly install resolved      { host: 's3://npm-registry-packages',
+49 silly install resolved        tmp: 'tmp/cli_7.1.4_1545260966721_0.23300243041436297' },
+49 silly install resolved     _hasShrinkwrap: false,
+49 silly install resolved     _shasum: 'f07ee4e979ec202bf2fd91a665e3d2d6c065bbe1',
+49 silly install resolved     _resolved: 'https://registry.npmjs.org/@angular/cli/-/cli-7.1.4.tgz',
+49 silly install resolved     _from: '@angular/cli@*' } ]
+50 info install @angular/cli@7.1.4 into /Users/karinamendez/.nvm/versions/node/v0.12.7/lib
+51 info installOne @angular/cli@7.1.4
+52 verbose installOne of @angular/cli to /Users/karinamendez/.nvm/versions/node/v0.12.7/lib not in flight; installing
+53 warn locking Error: EACCES, open '/Users/karinamendez/.npm/_locks/angular-cli-78cbe9b01585b51e.lock'
+53 warn locking     at Error (native)
+53 warn locking  /Users/karinamendez/.npm/_locks/angular-cli-78cbe9b01585b51e.lock failed { [Error: EACCES, open '/Users/karinamendez/.npm/_locks/angular-cli-78cbe9b01585b51e.lock']
+53 warn locking   errno: -13,
+53 warn locking   code: 'EACCES',
+53 warn locking   path: '/Users/karinamendez/.npm/_locks/angular-cli-78cbe9b01585b51e.lock' }
+54 verbose stack Error: Attempt to unlock /Users/karinamendez/.nvm/versions/node/v0.12.7/lib/node_modules/@angular/cli, which hasn't been locked
+54 verbose stack     at unlock (/Users/karinamendez/.nvm/versions/node/v0.12.7/lib/node_modules/npm/lib/utils/locker.js:66:11)
+54 verbose stack     at cb (/Users/karinamendez/.nvm/versions/node/v0.12.7/lib/node_modules/npm/lib/install.js:1017:5)
+54 verbose stack     at /Users/karinamendez/.nvm/versions/node/v0.12.7/lib/node_modules/npm/lib/install.js:1021:20
+54 verbose stack     at /Users/karinamendez/.nvm/versions/node/v0.12.7/lib/node_modules/npm/lib/utils/locker.js:40:9
+54 verbose stack     at cb (/Users/karinamendez/.nvm/versions/node/v0.12.7/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+54 verbose stack     at /Users/karinamendez/.nvm/versions/node/v0.12.7/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+54 verbose stack     at FSReqWrap.oncomplete (fs.js:95:15)
+55 verbose cwd /Users/karinamendez/Desktop/Developer
+56 error Darwin 16.7.0
+57 error argv "/Users/karinamendez/.nvm/versions/node/v0.12.7/bin/node" "/Users/karinamendez/.nvm/versions/node/v0.12.7/bin/npm" "i" "-g" "@angular/cli"
+58 error node v0.12.7
+59 error npm  v2.11.3
+60 error Attempt to unlock /Users/karinamendez/.nvm/versions/node/v0.12.7/lib/node_modules/@angular/cli, which hasn't been locked
+61 error If you need help, you may report this error at:
+61 error     <https://github.com/npm/npm/issues>
+62 verbose exit [ 1, true ]

@@ -1,0 +1,6 @@
+<input #next_sum type="number" class="general_input" placeholder="Enter a number and add to list " />
+<p *ngIf="result">Result: {{result}}</p>
+<p *ngIf="num_list.length > 0">(<span *ngFor="let num of num_list">{{ num }} , </span>)</p>
+<span (click)="pushList(next_sum.value)" class="fun_btn green_btn">Add to list</span>
+<span (click)="partialSum()" class="fun_btn orange_btn">Result</span>
+<span (click)="clearList()" class="fun_btn gray_btn">Clear list</span>

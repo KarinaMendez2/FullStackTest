@@ -1,0 +1,170 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+.root__container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 0.5fr auto;
+  position: relative;
+}
+
+/*
+================
+    Header
+================
+*/
+
+section.belt_section {
+    width: 100%;
+    text-align: right;
+}
+
+img.header_belt {
+    width: 65%;
+}
+
+
+/*
+    Slide Menu
+= = = = = = = = =
+*/
+
+li.side_menuitem {
+    font-family: Arial;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+section.menu-body {
+    list-style: bengali;
+    margin-top: 190px;
+    margin-left: 10%;
+    font-size: 15px;
+}
+
+aside {
+    position: fixed;
+    width: 140px;
+    z-index: 1;
+    height: 100%;
+    background: rgba(88, 206, 200, 0.7);
+}
+
+img.profile__image {
+    border: solid 2px white;
+    border-radius: 50%;
+    position: absolute;
+    right: -65px;
+    top: 5%;
+    width: 145px;
+}
+
+main.main__container {
+    margin-left: 15%;
+}
+
+
+.example-container {
+  width: 500px;
+  height: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.example-sidenav-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.example-sidenav {
+  padding: 20px;
+}
+
+/*
+================-
+    Media
+================
+*/
+
+@media only screen and (max-width: 300px) {
+  .slide-menu {
+    width: 100%;
+  }
+}
+
+/*
+================-
+    General 
+================
+*/
+
+.mat-tab-label {
+    font-family: Arial;
+    max-width: 50px !important;
+}
+
+.mat-tab-label-active {
+    border-bottom: solid 2px #8cbd9f;
+}
+
+section.general_container {
+    width: 85%;
+    border: solid 1px #cccccc;
+    border-radius: 10px;
+    padding: 2% 5%;
+    margin-top: 10px;
+    background: rgba(255,255,255,0.8)
+}
+
+.orange_btn{
+    background: #cea650;
+}
+
+.gray_btn{
+    background: #cccccc;
+}
+
+.green_btn {
+  background: #8cbd9f;
+}
+
+.fun_btn {
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+img.prof {
+    height: 210px;
+    z-index: 1;
+
+    margin-left: 10px;
+}
+
+section.icon_footer {
+    position: absolute;
+    bottom: 20px;
+}
+
+body {
+    background: url(/assets/images/fondo.png);
+    margin: 0;
+    max-width: 100vw;
+}
+
+input.general_input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 2px #cea650;
+    width: 230px;
+    height: 35px;
+    margin-right: 15px;
+    font-size: 15px;
+}
